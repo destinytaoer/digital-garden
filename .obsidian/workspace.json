@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "4ca6ac3e2b1fa3eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d8feb89ca398b90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56f530bde57d883d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web/library/xterm/xterm-用法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e81fc903bf6da06d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6dd30941a273aba8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "311afaeb982264f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1e739339c444d73",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9a1312fc52c858fc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4e13e19967e6d504",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ee6f4277a585873",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5fe7aece6cd7aff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "web/library/xterm/xterm-用法.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "cd47e86b53376c87",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1bd06b75b7749fc7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "web/library/xterm/xterm-用法.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c991a25a24f1eea4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bc07d93ef4a8dffb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "web/library/xterm/xterm-用法.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-advanced-slides:Show Slide Preview": true
+    }
+  },
+  "active": "311afaeb982264f0",
+  "lastOpenFiles": [
+    "web/web_terminal",
+    "数组/语法.md",
+    "数组/aa.md",
+    "2023-05-12.md",
+    "aa.md",
+    "数组/未命名",
+    "数组",
+    "DOM",
+    "未命名.canvas"
+  ]
+}
