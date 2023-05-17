@@ -1,12 +1,8 @@
 ---
 title: xterm 用法
-layout: post
-category: 
 tags: [xterm, javascript]
 date: 2023-05-16 17:51:39
-update: 2023-05-16 18:54:07
-comments: true
-copyright: true
+update: 2023-05-17 10:01:17
 ---
 
 # xterm 用法
