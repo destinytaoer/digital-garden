@@ -1,18 +1,13 @@
 ---
-title: xterm 用法
+title: 基础用法
 tags: [xterm, javascript]
 date: 2023-05-16 17:51:39
-update: 2023-05-17 10:01:17
+update: 2023-05-17 14:35:46
 ---
 
-# xterm 用法
+# 基础用法
 
 #xterm #javascript 
-
-[文档](https://xtermjs.org/)
-[Github](https://github.com/xtermjs/xterm.js)
-
-## 初始化
 
 ```javascript
 import { Terminal } from 'xterm'
@@ -37,39 +32,3 @@ terminal.onData((data: string) => {
 	terminal.write(data)
 })
 ```
-
-##  渲染类型
-
-v4 版本支持 `rendererType` 配置项，支持 dom 和 canvas 两种类型，默认使用 canvas
-
-```javascript
-const terminal = new Terminal({
-	rendererType: 'dom'
-})
-```
-
-v5 版本废弃了这个配置项，xterm 将 canvas 渲染器单独抽离出来，封装成了一个插件 [xterm-addon-canvas](https://github.com/xtermjs/xterm.js/tree/master/addons/xterm-addon-canvas)，默认使用 dom 进行渲染。另外 v5 版本推荐使用 webgl 来进行渲染，而 canvas 作为一种备用的回退方案。
-
-```javascript
-try {  
-	// https://github.com/xtermjs/xterm.js/issues/3357  
-	// safari < 16 报错, 需要 try catch
-	if (detectWebGLContext()) {
-		this.webglAddon = new WebglAddon()
-		this.webglAddon.onContextLoss((e) => {
-			log.error('something error: lost webgl context', e)
-			this.webglAddon?.dispose()
-		})
-		this.loadAddon(this.webglAddon)
-		log.info('render xterm use webgl')
-	} else {
-		throw new Error('current browser does not support webgl')
-	}
-} catch (e) {
-	log.warn('WebGL renderer could not be loaded, falling back to canvas renderer')
-	disposeWebglRenderer()
-	enableCanvasRenderer()
-}
-```
-
-## 主题配置
