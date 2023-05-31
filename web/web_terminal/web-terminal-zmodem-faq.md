@@ -1,9 +1,10 @@
 ---
 title: ZMODEM FAQ
-tags: 
+tags: [web-terminal, zmodem, terminal, faq]
 date: 2023-05-25 15:53:11
-update: 2023-05-25 16:07:54
+update: 2023-05-31 14:31:53
 ---
+#web-terminal #zmodem #terminal #faq
 
 # ZMODEM FAQ
 
@@ -32,3 +33,11 @@ zmodem.js 使用 `FileReader` 读取，`process` 事件只会触发一次，怀�
 参考：<https://github.com/FGasper/zmodemjs/issues/11>
 
 最后使用文件切片读取解决。引入新问题，上传过程中取消会导致 terminal 卡住
+
+## Not receiving OO causes session to get stuck
+
+没有接受到 `00` 导致 session 卡住。
+
+相关 ISSUE 记录：[zmodemjs/issues/33](https://github.com/FGasper/zmodemjs/issues/33)
+
+`sz` 下载文件出现中断卡住的现象。原因暂未明确。
