@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md",
+                "file": "library/trzsz/trz.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md",
+                "file": "library/trzsz/trz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md",
+                "file": "library/trzsz/trz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md"
+                "file": "library/trzsz/trz.md"
               }
             }
           }
@@ -156,10 +156,12 @@
   },
   "active": "a93ba6922f8686a5",
   "lastOpenFiles": [
-    "web_terminal/web-terminal-zmodem-faq.md",
-    "web_terminal/web-terminal-zmodem.md",
+    "library/trzsz/tsz.md",
+    "library/trzsz/trz.md",
     "library/trzsz/trzsz.md",
     "web_terminal/web-terminal-trzsz.md",
+    "web_terminal/web-terminal-zmodem-faq.md",
+    "web_terminal/web-terminal-zmodem.md",
     "library/trzsz",
     "library/lrzsz/lrzsz.md",
     "library/zmodem/zmodem.md",
