@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md",
+                "file": "browser/caniuse/chrome-timer-throttle.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md",
+                "file": "browser/caniuse/chrome-timer-throttle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md",
+                "file": "browser/caniuse/chrome-timer-throttle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "web_terminal/web-terminal-trzsz.md"
+                "file": "browser/caniuse/chrome-timer-throttle.md"
               }
             }
           }
@@ -169,18 +169,24 @@
   },
   "active": "1e3ead6a4266df4d",
   "lastOpenFiles": [
-    "library/trzsz/trzsz.md",
+    "browser/caniuse/assets/timer-throttle.png",
+    "browser/caniuse/assets",
+    "web_terminal/web-terminal-zmodem.md",
+    "browser/caniuse/chrome-timer-throttle.md",
+    "library/zmodem/sz.md",
+    "library/zmodem/assets/sz.png",
+    "library/zmodem/assets",
+    "library/zmodem/zmodem.md",
+    "library/lrzsz/lrzsz.md",
     "web_terminal/web-terminal-trzsz.md",
+    "library/trzsz/trzsz.md",
     "web_terminal/web-terminal-zmodem-faq.md",
     "browser/caniuse/safari-input-file-click.md",
     "library/trzsz/trz.md",
     "browser/caniuse",
     "browser",
     "library/trzsz/tsz.md",
-    "web_terminal/web-terminal-zmodem.md",
     "library/trzsz",
-    "library/lrzsz/lrzsz.md",
-    "library/zmodem/zmodem.md",
     "web_terminal/web-terminal.md",
     "web_terminal/web-terminal-auth.md",
     "web_terminal/web-terminal-design.md",
@@ -205,12 +211,7 @@
     "web/library/xterm/xterm.md",
     "web/library/xterm/xterm-basic.md",
     "web/web_terminal",
-    "数组/语法.md",
-    "数组/aa.md",
-    "2023-05-12.md",
     "数组/未命名",
-    "数组",
-    "DOM",
     "未命名.canvas"
   ]
 }
