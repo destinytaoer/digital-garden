@@ -2,7 +2,7 @@
 title: ZMODEM FAQ
 tags: [web-terminal, zmodem, terminal, faq]
 date: 2023-05-25 15:53:11
-update: 2023-05-31 14:31:53
+update: 2023-06-08 11:16:51
 ---
 #web-terminal #zmodem #terminal #faq
 
@@ -41,3 +41,11 @@ zmodem.js 使用 `FileReader` 读取，`process` 事件只会触发一次，怀�
 相关 ISSUE 记录：[zmodemjs/issues/33](https://github.com/FGasper/zmodemjs/issues/33)
 
 `sz` 下载文件出现中断卡住的现象。原因暂未明确。
+
+## safari 浏览器上传无法触发文件选择器
+
+[[safari-input-file-click]]
+
+## sz 下载导致 terminal 卡住的问题
+
+tree 命令输出数据有同样的问题，目前预计是网络压力的问题
