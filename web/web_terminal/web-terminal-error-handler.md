@@ -2,7 +2,7 @@
 title: 错误处理
 tags: [web-socket, web-terminal]
 date: 2023-05-20 20:45:58
-update: 2023-05-20 20:46:39
+update: 2023-06-08 11:42:48
 ---
 #web-socket #web-terminal 
 
@@ -17,3 +17,14 @@ WebSocket 中有个 error 事件，但是返回的事件对象中并没有包含
 目前还不是很完善，后面持续优化。
 
 大家有做过 WebSocket 错误处理的，也可以给我一点建议。
+
+## k8s exec 接口 ServiceError channel
+
+连接 k8s exec 接口时，有一个 ServiceError Channel：以 3 开头，我们对这类消息当做是错误来处理
+
+返回的消息中，包含消息原因和 exit code。
+
+k8s exit code：还待完善
+
+- Exit code 137 - Pods terminated，pod 销毁了
+- 127：
